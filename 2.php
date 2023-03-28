@@ -1,10 +1,10 @@
 <?php
-
+declare(strict_types=1);
 // reverse this string without any built in function in php
 
 
 
-function reverseString($string) {
+function reverseString(string $string) {
     $i = strlen($string) - 1;
     $revStr = "";
     while($i >= 0):
@@ -15,7 +15,7 @@ function reverseString($string) {
 }
 
 
-echo reverseString("alahly");
+echo reverseString("12345");
 
 
 // $string = "mohamed";
